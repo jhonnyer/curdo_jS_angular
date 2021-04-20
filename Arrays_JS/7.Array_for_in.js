@@ -17,7 +17,7 @@ for(let lenguaje in lenguajes){
 document.write("</ul>");
 
 
-document.write("<ul>");
+document.write("<ul>");u
 // index es el indice del Array, y data muestra los datos del array 
 lenguajes.forEach((elemento,index,data)=>{
     console.log(data);

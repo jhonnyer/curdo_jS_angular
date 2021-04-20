@@ -84,6 +84,7 @@ numeros2.sort(function(a, b){return a-b});
 mostrarArray(numeros2," ordenadada de manera númerica");
 
 // Invertir el orden y mostrar el array 
+
 numeros1.reverse();
 mostrarArray(numeros1,' ordenados de manera revertida')
 
@@ -103,3 +104,12 @@ if(posicion && posicion!=-1){
 }else{
         document.write("<hr/><h1>Elemento no ha sido encontrado</h1><hr/>");
 }
+
+// En el archivo principal de JS del backend 
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+    res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
+    next();
+});
