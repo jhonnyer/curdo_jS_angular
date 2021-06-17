@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Textos en JQuery</title>
+        <!-- Importar jquery libreria descargada localmente  -->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+
+        <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+                    <!-- Archivos js peticiones Ajax -->
+        <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- <script src="4.Peticiones_Ajax_jquery/1.Load_ajax.js"></script> -->
+        <script src="4.Peticiones_Ajax_jquery/2.Metodo_get_ajax.js"></script>
+        <!-- <script src="4.Peticiones_Ajax_jquery/3.Metodo_post_ajax.js"></script> -->
+        <script src="4.Peticiones_Ajax_jquery/4.Metodo_$_ajax.js"></script>
+        
+                <!-- Estilos CSS local  -->
+        <LINk rel="StyleSheet" href="css/style1.css" type="text/css"></LINk>
+    </head>
+    <body>
+        <h1>Peticiones Ajax </h1>
+        <div id="datos"></div>
+        <br>
+        <hr>
+        <form action="https://reqres.in/api/users" method="POST" id="formulario">
+            Nombre: <input type="text" name="name" id="name">
+            Web: <input type="text" name="web" id="web">
+            <input type="submit" value="registrar">
+        </form>
+
+    </body>
+</html>

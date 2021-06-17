@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primero se incluye el script de javascript  -->
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <!-- Incluir Jquery ui  -->
+  <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+                    <!-- Jquery UI  -->
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+  <script src="6.Jquery_Pluginhs_Widgets/1.Tooltips.js"></script>
+  <script src="6.Jquery_Pluginhs_Widgets/2.Cuadros_dialogo.js"></script>
+  <script src="6.Jquery_Pluginhs_Widgets/3.Calendario.js"></script>
+  <script src="6.Jquery_Pluginhs_Widgets/4.Tabs.js"></script>
+
+            <!-- Estilos CSS JQuery UI permite incluir funciones como redimensionar, selectable, etc -->
+ <LINk rel="StyleSheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css"></LINk>
+ <LINk rel="StyleSheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.css"></LINk>
+ <LINk rel="StyleSheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.css"></LINk>
+          <!-- Estilos CSS local  -->
+ <LINk rel="StyleSheet" href="css/style1.css" type="text/css"></LINk>
+
+</head>
+<body>
+    <h1>Aprendiendo Jquery UI</h1>
+
+    <h3>Tooltips</h3>
+    <a href="#" id="mis_datos1" title="Acceder a la sección de mis datos de esta web">Mis datos</a>
+    <a href="#" id="mis_datos2" title="Loguearse en esta web">Identificarse</a>
+    <a href="#" id="mis_datos3" title="Datos de contacto">Contactos</a>
+    <hr>
+    <h3>Cuadro de Dialogo</h3>
+    <button id="lanzar_popup">Lanzador</button>
+    <!-- display none hace que el texto solo se muestre cuando se presione el boton  -->
+    <div id="popup" title="¿Estas seguro?" style="display: none;">
+        <p>Curso de javascript</p>
+    </div>
+    <hr>
+    <h3>Calendario</h3>
+    <input type="text" id="calendario">
+    <hr>
+
+    <h3>Panel de pestañas</h3>
+    <div id="pestanas">
+        <ul>
+            <li><a href="#tabs-1">Pestaña 1</a></li>
+            <li><a href="#tabs-2">Pestaña 2</a></li>
+            <li><a href="#tabs-3">Pestaña 3</a></li>
+        </ul>
+        <div id="tabs-1">
+            <p>Información pestaña 1</p>
+        </div>
+        <div id="tabs-2">
+            <p>Información pestaña 2</p>
+        </div>
+        <div id="tabs-3">
+            <p>Información pestaña 3</p>
+        </div>
+    </div>
+   
+</body>
+</html>
