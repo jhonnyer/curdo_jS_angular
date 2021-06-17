@@ -1,0 +1,20 @@
+body {
+    /* imagen de fondo de pantalla 
+    ..permite salir del directorio css y luego ir a la carpeta img */
+    background:url('../img/rojo.jpg');
+    /* imagen se muestre en todo el fondo de la pagina  */
+    background-attachment: fixed;
+    /* background:red; */
+}
+#logo{
+    background:#CA3413;
+}
+
+/* Cuando se pasa el cursos por el li del menu hace un efecto de seleccion de color verde definido en este caso */
+#menu ul li:hover{
+    background: #CA3413;
+}
+
+.button-more{
+    background: #CA3413;
+}
