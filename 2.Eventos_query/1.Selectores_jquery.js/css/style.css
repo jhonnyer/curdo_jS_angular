@@ -1,0 +1,72 @@
+/* Clases seleciona con .  */
+/* Id selecciona con # */
+/* Etiquetas o elementos se coloca el nombre: ejemplo: input, p  */
+.zebra{
+    border:5px dashed black;
+}
+
+.grande{
+    font-size:30px;
+}
+
+.margen-superior{
+    display:block;
+    margin-top:45px;
+}
+.resaltado{
+    border-bottom:2px solid green;
+}
+
+#caja{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background: yellow;   
+    /* En este caso se coloca en la clase principal, la animacion es mas suave */
+    transition: 300ms all;
+}
+/* Hover: Cuando se pasa el cursso por el elemento con la clase caja, cambia de color */
+/* Esta funcion la vamos a implementar con javascript, en 1.Evento_Mouse_y_Hover  */
+/* #caja:hover{ */
+    /* trasnsition define el tiempo de cambio de color del hover  */
+    /* transition: 300ms all; */
+    /* background: red;
+    cursor: pointer;
+} */
+/* CSS DEL Input de un formulario  */
+input{
+    padding:10px;
+    width:300px;
+    font-size: 20px;
+}
+
+#datos{
+    border:4px dashed  black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    margin-top:10px;
+    display:none;
+}
+
+#sigueme{
+    width: 25px;
+    height: 25px;
+    /* permite mover el elemento del mouse libremente sin que otro elemento interfiera  */
+    position: absolute; 
+    display:block;
+    background: yellow;
+    opacity: 0.5;
+    border:1px solid black;
+    /* Border-radios para que sea un circulo */
+    border-radius: 999px;
+}
+input{
+    height: 1px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+}
+button{
+    margin-left: 2px;
+}
